@@ -158,7 +158,7 @@ def evaluate_model():
     solution lengths.
     """
     # Set these variables before running the function.
-    run_id = '220506013613'
+    run_id = '20240512'
     cube_count = 1000
     scramble_length = 14
     max_step_count = 20
@@ -173,7 +173,7 @@ def solve_scramble():
     after solving.
     """
     # Set these variables before running the function.
-    run_id = '220506013613'
+    run_id = '20240512'
     scramble = "R2 F' R2 U' F R2 U' R' F R F'"
     max_step_count = 20
 
@@ -190,11 +190,11 @@ def solve_scramble():
     # Display the solved cube, or the cube in its final state if it was not
     # solved.
     solver.env.render()
-    time.sleep(10)
+    # time.sleep(10)
 
 
 if __name__ == '__main__':
     # Call evaluate_model or solve_scramble after setting the configuration
     # variables inside the function.
-    #evaluate_model()
-    solve_scramble()
+    evaluate_model()
+    #solve_scramble()
